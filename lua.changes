@@ -1,3 +1,10 @@
+* Thu Jun 07 2012 David Greaves <david@dgreaves.com> -5.1.5
+- Update to 5.1.5
+- Applied Autotoolized Lua patch (5.1.5) from
+  http://lua-users.org/wiki/LuaPowerPatches
+  modified to correct references to 5.1.3
+- Fixes MER#354: update lua to 5.1.5
+
 * Mon Jul 05 2010 Anas Nashif <anas.nashif@intel.com> - 5.1.4
 - Split library into a sub-package liblua
 - Apply upstream patch patch-lua-5.1.4-2

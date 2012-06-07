@@ -1,6 +1,6 @@
 Name: lua
 Summary: Powerful light-weight programming language
-Version: 5.1.4
+Version: 5.1.5
 Release: 6
 Group: Development/Languages
 License: MIT
@@ -8,8 +8,7 @@ URL: http://www.lua.org/
 Sources:
     - http://www.lua.org/ftp/lua-%{version}.tar.gz
 Patches:
-    - patch-lua-5.1.4-2
-    - lua-5.1.4-autotoolize.patch
+    - lua-5.1.5-autotoolize.patch
     - buildfix.patch
 Description: |
     Lua is a powerful light-weight programming language designed for
