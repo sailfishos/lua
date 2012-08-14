@@ -1,3 +1,6 @@
+* Tue Aug 14 2012 Pekka Vuorela <pvuorela@iki.fi> -5.1.5
+- Fixes MER#203 Unexistent liblua-devel package in lua.spec dependencies
+
 * Thu Jun 07 2012 David Greaves <david@dgreaves.com> -5.1.5
 - Update to 5.1.5
 - Applied Autotoolized Lua patch (5.1.5) from

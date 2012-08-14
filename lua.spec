@@ -44,7 +44,7 @@ This package contains the shared version of liblua for %{name}.
 %package static
 Summary:    Static library for %{name}
 Group:      Development/Libraries
-Requires:   liblua-devel = %{version}-%{release}
+Requires:   lua-devel = %{version}-%{release}
 
 %description static
 This package contains the static version of liblua for %{name}.
