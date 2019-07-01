@@ -3,7 +3,7 @@
 Name:       lua
 Summary:    Powerful light-weight programming language
 Version:    5.3.5
-Release:    1
+Release:    2
 Group:      Development/Languages
 License:    MIT
 URL:        https://www.lua.org/
@@ -30,12 +30,14 @@ configuration, scripting, and rapid prototyping.
 %package -n liblua
 Summary:    The Lua library
 Group:      System/Libraries
+# Older rpm is still depends on older lua, and will break if this replacement is done before it is upgraded
+Requires(pre): rpm >= 4.14.1+git11
+Conflicts: rpm < 4.14.1+git11
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
 %description -n liblua
 This package contains the shared version of liblua for %{name}.
-
 %package static
 Summary:    Static library for %{name}
 Group:      Development/Libraries

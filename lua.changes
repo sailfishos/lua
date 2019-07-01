@@ -1,3 +1,6 @@
+* Mon Jul 01 2019 Niels Breet <niels.breet@jolla.com> - 5.3.5-2
+- [lua] Make sure rpm dependencies do not break during upgrade. Contributes to JB#46336
+
 * Mon Jun 24 2019 Niels Breet <niels.breet@jolla.com> - 5.3.5
 - [lua] Update lua to 5.3.5. Fixes JB#46336
 - Fixes CVE-2014-5461, CVE-2019-6706
