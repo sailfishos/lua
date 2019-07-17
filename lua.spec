@@ -31,7 +31,6 @@ configuration, scripting, and rapid prototyping.
 Summary:    The Lua library
 Group:      System/Libraries
 # Older rpm is still depends on older lua, and will break if this replacement is done before it is upgraded
-Requires(pre): rpm >= 4.14.1+git11
 Conflicts: rpm < 4.14.1+git11
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
