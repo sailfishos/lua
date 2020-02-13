@@ -1,3 +1,6 @@
+* Thu Feb 13 2020 Marko Saukko <marko.saukko@jolla.com> - 5.3.5-3
+- Drop ncurses build dep. Fixes JB#48953
+
 * Mon Jul 01 2019 Niels Breet <niels.breet@jolla.com> - 5.3.5-2
 - [lua] Make sure rpm dependencies do not break during upgrade. Contributes to JB#46336
 
