@@ -3,8 +3,7 @@
 Name:       lua
 Summary:    Powerful light-weight programming language
 Version:    5.3.5
-Release:    2
-Group:      Development/Languages
+Release:    3
 License:    MIT
 URL:        https://www.lua.org/
 Source0:    https://www.lua.org/ftp/lua-%{version}.tar.gz
@@ -12,7 +11,6 @@ Source1:    mit.txt
 Patch0:     lua-5.3.0-autotoolize.patch
 Patch1:     CVE-2019-6706-use-after-free-lua_upvaluejoin.patch
 Patch2:     lua-5.3.0-configure-compat-module.patch
-BuildRequires:  pkgconfig(ncurses)
 
 
 %description
@@ -29,7 +27,6 @@ configuration, scripting, and rapid prototyping.
 
 %package -n liblua
 Summary:    The Lua library
-Group:      System/Libraries
 # Older rpm is still depends on older lua, and will break if this replacement is done before it is upgraded
 Conflicts: rpm < 4.14.1+git11
 Requires(post): /sbin/ldconfig
@@ -39,7 +36,6 @@ Requires(postun): /sbin/ldconfig
 This package contains the shared version of liblua for %{name}.
 %package static
 Summary:    Static library for %{name}
-Group:      Development/Libraries
 Requires:   lua-devel = %{version}-%{release}
 
 %description static
@@ -47,7 +43,6 @@ This package contains the static version of liblua for %{name}.
 
 %package devel
 Summary:    Development files for %{name}
-Group:      Development/Libraries
 Requires:   liblua = %{version}-%{release}
 
 %description devel
