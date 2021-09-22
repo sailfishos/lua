@@ -55,7 +55,7 @@ diff -up lua-5.3.0/configure.ac.autoxxx lua-5.3.0/configure.ac
 +  LUA_DL_DEFS="#define LUA_DL_DYLD"
 +elif test "x$use_os" == "xposix"; then
 +  POSIX_DEFS="#define LUA_USE_POSIX"
-+  LUA_DL_DEFS="#define LUA_DL_DLOPEN"
++  LUA_DL_DEFS="#define LUA_USE_DLOPEN"
 +  LUA_LIBS="$LUA_LIBS -ldl"
 +fi
 +AC_SUBST(POSIX_DEFS)
