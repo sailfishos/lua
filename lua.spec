@@ -3,7 +3,7 @@
 Name:       lua
 Summary:    Powerful light-weight programming language
 Version:    5.3.5
-Release:    3
+Release:    4
 License:    MIT
 URL:        https://www.lua.org/
 Source0:    https://www.lua.org/ftp/lua-%{version}.tar.gz
