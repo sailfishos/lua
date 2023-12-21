@@ -1,3 +1,6 @@
+* Thu Dec 21 2023 Pekka Vuorela <pekka.vuorela@jolla.com> - 5.4.6-1
+- [lua] Update to 5.4.6. JB#57054
+
 * Tue Sep 21 2021 Björn Bidar <bjorn.bidar@jolla.com> - 5.3.5-4
 - [lua] Fix loading of dynamic libraries. JB#55272
 
